@@ -10,7 +10,7 @@ public class AddIteamsIntoCart {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("(//button[text()='ADD TO CART'])[3]")).click();
+		driver.findElement(By.xpath("(//button[text()='ADD TO CART'])[3]")).click();//click operation
 		
 			}
 
